@@ -23,8 +23,8 @@ const Home = () => {
     ]
 
   return (
-      <div className='w-full h-screen  flex gap-10 justify-center text-white items-center '>
-      <div class=" inset-0 -z-10 h-screen fixed w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+      <div className='w-full h-screen  flex gap-10 justify-center flex-wrap text-white items-center '>
+      <div className=" inset-0 -z-10 h-screen fixed w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
           
           {websites.map((items) => (
                   
